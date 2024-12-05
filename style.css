@@ -1,5 +1,5 @@
 .container-fluid{
-   background-image: linear-gradient(to right, rgb(76, 127, 254),rgb(0, 128, 77));
+   background-image: linear-gradient(to right, rgb(254, 177, 76),rgb(70, 128, 0));
    height: 100vh;
    display: flex;
    justify-content: center;
@@ -11,8 +11,23 @@ body{
     padding: 0;
 }
 .btn{
-    border: 2px solid red;
+    box-shadow: none;
+    border: 1px solid rgba(124, 124, 124, 0.353);
 }
 .row_bg{
     border-radius: 8px;
+}
+.form-control{
+    border-radius: 12px;
+    outline: none;
+    margin: none;
+}
+.form-control:focus{
+    border-radius: 12px;
+    outline: none;
+    margin: none;
+    box-shadow: none;
+}
+.bb{
+    background-image: linear-gradient(to right,rgb(105, 214, 10),rgb(255, 234, 2));
 }
