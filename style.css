@@ -1,5 +1,5 @@
 .container-fluid{
-   background-image: linear-gradient(red,green);
+   background-image: linear-gradient(to right, rgb(76, 127, 254),rgb(0, 128, 77));
    height: 100vh;
    display: flex;
    justify-content: center;
@@ -10,6 +10,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.btn{
+    border: 2px solid red;
+}
 .row_bg{
-    b
+    border-radius: 8px;
 }
